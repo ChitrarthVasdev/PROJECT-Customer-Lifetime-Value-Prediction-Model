@@ -74,14 +74,15 @@ To predict the **Customer Lifetime Value (LTV)** for each customer based on thei
 
 | File | Description |
 |------|-------------|
-| ✅ `Updated_Online_Retail_Compressed.zip` | Cleaned dataset with engineered features as final csv |
 | ✅ `Predicted_LTV_Segments.csv` | Final  LTV predictions with customer segment in CSV |
-| ✅ `Online Retail.xlsx` | original Dataset |
+| ✅ `Project_CLV_Prediction_Code_File.ipynb` | Python Notebook  |
 | ✅ `LTV_model_compressed.pkl.gz` | Trained RandomForestRegressor model Gzip-compressed model file |
 | ✅ `LTV_Prediction_Distribution.png` | Histogram of predicted LTV values |
 | ✅ `Customer_Segment_Counts.png` | Bar chart of customers by segment |
-| ✅ `Updated_table.csv` |  Dataset after feature engineering |
 | ✅ `Online Retail.xlsx` | original Dataset |
+| ✅ `Updated_Online_Retail_Compressed.zip` | Cleaned dataset with engineered features as final zip |
+| ✅ `Updated_table.csv` |  Dataset after feature engineering |
+
 
 ---
 
