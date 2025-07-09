@@ -96,11 +96,11 @@ To predict the **Customer Lifetime Value (LTV)** for each customer based on thei
 import joblib
 model = joblib.load("LTV_model.pkl")
 
-Predict LTV for new customer data using:
+# Predict LTV for new customer data using:
     new_data= [add new values]
     predicted_ltv = model.predict(new_data[['Recency', 'Frequency', 'AOV']])
 
-Segment customers using:
+# Segment customers using:
 
 import pandas as pd
 df['Segment'] = pd.qcut(df['Predicted_LTV'], q=4, labels=['Low', 'Mid-Low', 'Mid-High', 'High'])
